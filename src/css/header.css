@@ -41,7 +41,7 @@ body {
   .navbar-end > a.navbar-item:hover,
   .navbar-end .navbar-link:hover {
     background: var(--navbar_hover-background);
-    color: var(--navbar-font-color);
+    color: var(--navbar-hover-font-color);
   }
 
   .navbar-end .navbar-link::after {
@@ -50,7 +50,7 @@ body {
 
   .navbar-item.has-dropdown:hover .navbar-link {
     background: var(--navbar_hover-background);
-    color: var(--navbar-font-color);
+    color: var(--navbar-hover-font-color);
   }
 }
 
@@ -276,4 +276,11 @@ body {
   color: var(--navbar-button-font-color);
   padding: 0 0.75em;
   white-space: nowrap;
+}
+
+.appuio_logo {
+  background: transparent url(../img/appuio.svg) no-repeat center;
+  background-size: contain;
+  width: 80px;
+  height: 40px;
 }

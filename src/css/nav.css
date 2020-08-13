@@ -168,6 +168,7 @@ html.is-clipped--nav {
 
 .nav-item.is-active > .nav-item-toggle {
   transform: rotate(90deg);
+  color: red;
 }
 
 .is-current-page > .nav-link,

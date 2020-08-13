@@ -113,6 +113,7 @@
 
 .doc a:hover {
   color: var(--link_hover-font-color);
+  text-decoration: none;
 }
 
 .doc a.unresolved {
