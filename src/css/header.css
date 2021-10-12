@@ -6,6 +6,13 @@ body {
   padding-top: var(--navbar-height);
 }
 
+.appuio_logo {
+  background: transparent url(../img/appuio.svg) no-repeat center;
+  background-size: contain;
+  width: 80px;
+  height: 40px;
+}
+
 .navbar {
   background: var(--navbar-background);
   color: var(--navbar-font-color);
