@@ -3,7 +3,9 @@
     <div class="navbar-brand">
       <div class="navbar-item">
         <div class="appuio_logo"></div>
-        <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}">{{site.title}}</a>
+        <a class="navbar-item" href="{{or site.url (or siteRootUrl siteRootPath)}}">{{site.title}}
+          {{#unless (eq page.componentVersion.displayVersion "master")}}{{#unless (eq page.layout '404')}} –
+          v{{page.componentVersion.displayVersion}}{{/unless}}{{/unless}}</a>
         <button class="navbar-burger" data-target="topbar-nav">
           <span></span>
           <span></span>
