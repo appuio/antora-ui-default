@@ -50,7 +50,7 @@
   --navbar-menu-font-color: var(--color-appuio-dark-blue);
   --navbar-menu_hover-background: var(--color-appuio-yellow);
   /* nav */
-  --nav-background: var(--color-appuio-light-blue);
+  --nav-background: var(--panel-background);
   --nav-border-color: var(--color-gray-10);
   --nav-line-height: 1.35;
   --nav-heading-font-color: var(--color-jet-30);
