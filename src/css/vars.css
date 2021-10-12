@@ -16,7 +16,12 @@
   --color-jet-70: #222;
   --color-jet-80: #191919;
   --color-black: #000;
-  /* fonts */
+ /* APPUiO colors */
+  --color-appuio-dark-blue: #0e2f47;
+  --color-appuio-turquoise: #15b0bf;
+  --color-appuio-light-blue: #b2e6ec;
+  --color-appuio-yellow: #ffd301;
+ /* fonts */
   --rem-base: 18; /* used to compute rem value from desired pixel value (e.g., calc(18 / var(--rem-base) * 1rem) = 18px) */
   --body-font-size: 1.0625em; /* 17px */
   --body-font-size--desktop: 1.125em; /* 18px */
@@ -33,23 +38,24 @@
   --panel-border-color: var(--color-smoke-90);
   --scrollbar-thumb-color: var(--color-gray-10);
   /* navbar */
-  --navbar-background: var(--color-jet-80);
+  --navbar-background: var(--color-appuio-turquoise);
+  --navbar-hover-font-color: var(--color-appuio-dark-blue);
   --navbar-font-color: var(--color-white);
-  --navbar_hover-background: var(--color-black);
+  --navbar_hover-background: var(--color-appuio-yellow);
   --navbar-button-background: var(--color-white);
   --navbar-button-border-color: var(--panel-border-color);
-  --navbar-button-font-color: var(--body-font-color);
+  --navbar-button-font-color: var(--color-appuio-dark-blue);
   --navbar-menu-border-color: var(--panel-border-color);
-  --navbar-menu-background: var(--color-white);
-  --navbar-menu-font-color: var(--body-font-color);
-  --navbar-menu_hover-background: var(--color-smoke-50);
+  --navbar-menu-background: var(--color-appuio-light-blue);
+  --navbar-menu-font-color: var(--color-appuio-dark-blue);
+  --navbar-menu_hover-background: var(--color-appuio-yellow);
   /* nav */
-  --nav-background: var(--panel-background);
+  --nav-background: var(--color-appuio-light-blue);
   --nav-border-color: var(--color-gray-10);
   --nav-line-height: 1.35;
   --nav-heading-font-color: var(--color-jet-30);
   --nav-muted-color: var(--color-gray-70);
-  --nav-panel-divider-color: var(--color-smoke-90);
+  --nav-panel-divider-color: var(--color-appuio-light-blue);
   --nav-secondary-background: var(--color-smoke-70);
   /* toolbar */
   --toolbar-background: var(--panel-background);
@@ -80,8 +86,8 @@
   --heading-font-weight: normal;
   --alt-heading-font-weight: var(--body-font-weight-bold);
   --section-divider-color: var(--panel-border-color);
-  --link-font-color: #1565c0;
-  --link_hover-font-color: #104d92;
+  --link-font-color: var(--color-appuio-turquoise);
+  --link_hover-font-color: var(--color-appuio-dark-blue);
   --link_unresolved-font-color: var(--important-color);
   --abstract-background: var(--color-smoke-70);
   --abstract-font-color: var(--color-jet-20);
@@ -108,7 +114,7 @@
   --table-stripe-background: var(--panel-background);
   --table-footer-background: linear-gradient(to bottom, var(--color-smoke-70) 0%, var(--color-white) 100%);
   /* toc */
-  --toc-font-color: var(--nav-muted-color);
+  --toc-font-color: var(--color-appuio-dark-blue);
   --toc-heading-font-color: var(--doc-font-color);
   --toc-border-color: var(--panel-border-color);
   --toc-line-height: 1.2;
@@ -116,7 +122,7 @@
   --footer-line-height: var(--doc-line-height);
   --footer-background: var(--color-smoke-90);
   --footer-font-color: var(--color-gray-70);
-  --footer-link-font-color: var(--color-jet-80);
+  --footer-link-font-color: var(--color-appuio-turquoise);
   /* dimensions and positioning */
   --navbar-height: calc(63 / var(--rem-base) * 1rem);
   --toolbar-height: calc(45 / var(--rem-base) * 1rem);

@@ -230,7 +230,7 @@ body {
   .navbar-end .navbar-link:hover,
   .navbar-end .navbar-item.has-dropdown:hover .navbar-link {
     background: var(--navbar_hover-background);
-    color: var(--navbar-font-color);
+    color: var(--navbar-hover-font-color);
   }
 
   .navbar-end .navbar-link::after {
