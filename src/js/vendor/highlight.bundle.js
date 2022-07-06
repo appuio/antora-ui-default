@@ -6,6 +6,7 @@
   hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'))
   hljs.registerLanguage('clojure', require('highlight.js/lib/languages/clojure'))
   hljs.registerLanguage('cpp', require('highlight.js/lib/languages/cpp'))
+  hljs.registerLanguage('crystal', require('highlight.js/lib/languages/crystal'))
   hljs.registerLanguage('cs', require('highlight.js/lib/languages/cs'))
   hljs.registerLanguage('css', require('highlight.js/lib/languages/css'))
   hljs.registerLanguage('dart', require('highlight.js/lib/languages/dart'))
