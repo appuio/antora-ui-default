@@ -9,6 +9,7 @@
   hljs.registerLanguage('crystal', require('highlight.js/lib/languages/crystal'))
   hljs.registerLanguage('cs', require('highlight.js/lib/languages/cs'))
   hljs.registerLanguage('css', require('highlight.js/lib/languages/css'))
+  hljs.registerLanguage('d', require('highlight.js/lib/languages/d'))
   hljs.registerLanguage('dart', require('highlight.js/lib/languages/dart'))
   hljs.registerLanguage('diff', require('highlight.js/lib/languages/diff'))
   hljs.registerLanguage('dockerfile', require('highlight.js/lib/languages/dockerfile'))
