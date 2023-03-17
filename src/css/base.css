@@ -37,6 +37,10 @@ a:active {
   background-color: none;
 }
 
+a[target=_blank]::after {
+  content: "\00a0🔗";
+}
+
 code,
 kbd,
 pre {
